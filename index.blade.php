@@ -89,7 +89,7 @@
         </div>
 
     </div>
-    {{-- overflow-clip --}}
+
     <div class=" mx-5 overflow-clip  ">
 
         <div  class="w-full mt-6 rounded-2xl " style="height:1px; animation: pulse 3s infinite;
@@ -114,8 +114,8 @@
         </div>
 
      
-        <a href="{{route('index-product')}}">
-            <div class="@if(Route::currentRouteName() == 'index-product') bg-indigo-700 @else hover:bg-indigo-800 @endif my-0  cursor-pointer flex items-center rounded px-3 py-2.5 min-w-0 ">
+        <a href="">
+            <div class="bg-indigo-700 @else hover:bg-indigo-800 @endif my-0  cursor-pointer flex items-center rounded px-3 py-2.5 min-w-0 ">
 
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="fill-white scale-110 bi bi-archive-fill" viewBox="0 0 16 16">
@@ -130,8 +130,8 @@
 
             </div>
         </a>
-        <a href="{{route('index-category')}}">
-            <div class="@if(Route::currentRouteName() == 'index-category') bg-indigo-800 @else hover:bg-indigo-800 @endif mt-1  cursor-pointer flex items-center rounded px-3 py-2.5 min-w-0 ">
+        <a href="">
+            <div class="bg-indigo-800 @else hover:bg-indigo-800 @endif mt-1  cursor-pointer flex items-center rounded px-3 py-2.5 min-w-0 ">
 
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="scale-110 fill-white bi bi-tags" viewBox="0 0 16 16">
@@ -148,8 +148,8 @@
             </div>
         </a>
 
-        <a href="{{route('index-coupon')}}">
-            <div class="@if(Route::currentRouteName() == 'index-coupon') bg-indigo-800 @else hover:bg-indigo-800 @endif mt-1  cursor-pointer flex items-center rounded px-3 py-2.5 min-w-0 ">
+        <a href="">
+            <div class=" bg-indigo-800 @else hover:bg-indigo-800 @endif mt-1  cursor-pointer flex items-center rounded px-3 py-2.5 min-w-0 ">
 
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="scale-110 fill-white bi bi-clipboard-heart" viewBox="0 0 16 16">
@@ -168,8 +168,8 @@
         </a>
 
            
-        <a href="{{route('index-attribute')}}">
-            <div class="@if(Route::currentRouteName() == 'index-attribute') bg-indigo-800 @else hover:bg-indigo-800 @endif mt-1  cursor-pointer flex items-center rounded px-3 py-2.5 min-w-0 ">
+        <a href="">
+            <div class=" bg-indigo-800 @else hover:bg-indigo-800 @endif mt-1  cursor-pointer flex items-center rounded px-3 py-2.5 min-w-0 ">
             
             
             <svg xmlns="http://www.w3.org/2000/svg" style="fill: white" width="16" height="16" fill="currentColor" class="scale-110 bi bi-grid" viewBox="0 0 16 16">
@@ -212,14 +212,14 @@
         <div class="on">
             <ul style="border-left: 1px solid white" class="w-44 mx-4 rounded-tl-none rounded-tr-xl rounded-br-xl rounded-bl-xl ">
             
-                <a href="{{route('create-product')}}">
+                <a href="">
                     <div style="border-left: 1px solid white; margin-inline:-1px" class="hover:bg-indigo-800 my-0  rounded-tl-none rounded-tr-xl rounded-br-xl rounded-bl-xl">
                     
                         <li class="text-white p-2.5 font-sans font-ligher rounded-tl-none rounded-tr-md rounded-br-md rounded-bl-md list-none cursor-pointer">Create Product</li>
                     </div>
                 </a>
 
-                <a href="{{route('createCategory')}}">
+                <a href="">
                     <div style="border-left: 1px solid white; margin-inline:-1px" class="hover:bg-indigo-800 my-0  rounded-tl-none rounded-tr-xl rounded-br-xl rounded-bl-xl">
                     
                         <li class="text-white p-2.5 font-sans font-ligher rounded-tl-none rounded-tr-md rounded-br-md rounded-bl-md list-none cursor-pointer">Create Category</li>
@@ -228,7 +228,7 @@
 
 
 
-                <a href="{{route('create-attribute')}}">
+                <a href="">
                     <div style="border-left: 1px solid white; margin-inline:-1px" class="hover:bg-indigo-800 my-0  rounded-tl-none rounded-tr-xl rounded-br-xl rounded-bl-xl">
                     
                         <li class="text-white p-2.5 font-sans font-ligher rounded-tl-none rounded-tr-md rounded-br-md rounded-bl-md list-none cursor-pointer">Create Attributes</li>
@@ -236,7 +236,7 @@
                 </a>
 
                 
-                <a href="{{route('create-coupon')}}">
+                <a href="">
                     <div style="border-left: 1px solid white; margin-inline:-1px" class="hover:bg-indigo-800 my-0  rounded-tl-none rounded-tr-xl rounded-br-xl rounded-bl-xl">
                     
                         <li class="text-white p-2.5 font-sans font-ligher rounded-tl-none rounded-tr-md rounded-br-md rounded-bl-md list-none cursor-pointer">Create Coupons</li>
@@ -262,8 +262,8 @@
 
       
 
-        <a href="{{route('index-order')}}">
-            <div class="@if(Route::currentRouteName() == 'index-order') bg-indigo-800 @else hover:bg-indigo-800 @endif mt-1  cursor-pointer flex items-center rounded px-3 py-2.5 min-w-0 ">
+        <a href="">
+            <div class=" bg-indigo-800 @else hover:bg-indigo-800 @endif mt-1  cursor-pointer flex items-center rounded px-3 py-2.5 min-w-0 ">
             
             
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="scale-110 fill-white bi bi-box-seam" viewBox="0 0 16 16">
@@ -281,7 +281,7 @@
 
         
         <a href="">
-            <div class="@if(Route::currentRouteName() == 'index-banner') bg-indigo-800 @else hover:bg-indigo-800 @endif mt-1  cursor-pointer flex items-center rounded px-3 py-2.5 min-w-0 ">
+            <div class=" bg-indigo-800 @else hover:bg-indigo-800 @endif mt-1  cursor-pointer flex items-center rounded px-3 py-2.5 min-w-0 ">
             
             
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="fill-white scale-110 bi bi-collection" viewBox="0 0 16 16">
@@ -299,7 +299,7 @@
 
 
         <a href="">
-            <div class="@if(Route::currentRouteName() == 'index-user') bg-indigo-800 @else hover:bg-indigo-800 @endif mt-1  cursor-pointer flex items-center rounded px-3 py-2.5 min-w-0 ">
+            <div class=" bg-indigo-800 @else hover:bg-indigo-800 @endif mt-1  cursor-pointer flex items-center rounded px-3 py-2.5 min-w-0 ">
             
             
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="fill-white scale-110 bi bi-people" viewBox="0 0 16 16">
@@ -381,50 +381,41 @@
             <tbody>
 
 
-              @foreach ($products as $product)       
+                
     <tr class="  border-b bg-slate-900 border-gray-700 hover:bg-slate-800">
  
-      <td  class="py-4 pl-3">{{$loop->index}}</td>
-      <td  class="py-4 px-0">{{$product->id}}</td>
+      <td  class="py-4 pl-3">1</td>
+      <td  class="py-4 px-0">43</td>
       
         <td class="py-4 pl-3"><img  class="h-16" src="{{$product->image}}" alt=""></td>
-      <td class="py-4 px-0">{{Str::limit($product->name,35,'...')}}</td>
+      <td class="py-4 px-0">Playstation 5</td>
       
-      <td class="py-4 px-3">{{$product->brand_name}}</td>
-      <td class="py-4 px-3">{{$product->sale_price}}</td>
-      @if($product->attributeValues)
+      <td class="py-4 px-3">Sony</td>
+      <td class="py-4 px-3">99.00</td>
+ 
      
       
       <td class="py-4 pl-3">
-        @foreach ($product->attributeValues->unique('product_attribute_id') as $attributeValue)
-        
-            {{$attributeValue->productAttribute->name}} :
-            {{$attributeValue->value}}<br>
+  
+        Size :
+       Xs<br>
             
            
-        @endforeach
+
 
       </td>
-      @if($product->stock_status == 1)
-      <td class="py-4 px-0">
-        
-      <div class="py-2 px-2.5 bg-emerald-400 font-semibold rounded ">
 
-        <h2 class="font-semibold  text-emerald-900 ">In Stock ({{$product->quantity}})</h2>
-      </div>
-    
-      </td>
-      @else
+
       <td class="py-4 px-0">
         <div class="py-1.5 px-2.5  border-red-400 border-2 font-semibold text-sm  rounded ">
-          <h2 class=" font-semibold text-sm text-red-400">Out Stock ({{$product->quantity}})</h2>
+          <h2 class=" font-semibold text-sm text-red-400">Out Stock</h2>
         </div>
       </td>
-      @endif
+   
 
      
       <td class="py-4 px-3">
-        {{Str::limit($product->category->name,10,'...')}}
+       Playstation
       </td>
 
       
@@ -433,24 +424,21 @@
     
 
 
-      @endif
-      <td  class="py-4 px-3" > <a class="font-medium text-blue-500 hover:underline" href="{{Route('edit-product', $product->id)}}">
+  
+      <td  class="py-4 px-3" > <a class="font-medium text-blue-500 hover:underline" href="">
         <button class="btn-edit  px-4 py-1 rounded  text-base">Edit</button>
     </a></td>
 
 
     <td class="py-4 px-3">                                  
                       
-        <form action="{{route('delete-product', $product->id)}}" method="POST">
-            @csrf
-            @method('DELETE')
         
         <button style="" type="submit" value="DELETE" class="btn-delete font-medium  px-3 py-1 rounded  text-base">DELETE</button>
-        </form>
+     
     </td>
      
     </tr>
-    @endforeach
+
 
 
             </tbody>  
